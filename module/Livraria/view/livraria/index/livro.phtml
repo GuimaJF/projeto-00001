@@ -1,0 +1,9 @@
+<h2>LIVRO: <?php echo $this->flag; ?></h2>
+
+<ol>
+<?php 
+foreach ($this->resultado as $key => $value) {
+    echo '<li>'.$value.'</li>'; 
+}
+?>
+</ol>
